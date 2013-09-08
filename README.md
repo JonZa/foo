@@ -1,7 +1,7 @@
-**foo(bar,fly)**
+**foo(bar,fly)**;
 ============
 
-Never console.log again.
+Marginally useful console.log shorthand.
 
 **Ad-hoc logging:**
 ```
