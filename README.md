@@ -1,29 +1,32 @@
-foo(bar,fly)
+**foo(bar,fly)**
 ============
 
 Never console.log again.
 
-Ad-hoc logging:
-
+**Ad-hoc logging:**
+```
 foo('bar');
 // [13:03:20] bar
-
-var bar = 'foo';
+```
+```
+var bar = 'fly';
 foo(bar);
-// [13:03:20] bar
+// [13:03:20] fly
+```
 
-
-Optional coding standard for enabling emergency debug mode:
-
+**Optional coding standard for enabling emergency debug mode:**
+```
 function whatever() {
   foo('whatever',1);
   ...
 }
 // (no log)
-
+```
+```
 var paranoid = true;
 function whatever() {
   foo('whatever',1);
   ...
 }
 // [13:03:20] whatever
+```
